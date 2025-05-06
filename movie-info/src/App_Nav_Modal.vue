@@ -2,7 +2,6 @@
   <Navbar /> 
   <Event :text="text" /> <!--속성명(props변수)="보낼값"-->
   <!--데이터 반인딩할때는 동적인 값을 추가할때 :text-->
-  <Movies />
   <div>
     <h1>영화 정보</h1>
 
@@ -42,6 +41,7 @@
         </p>
       </div>
     </div>
+    
   </div>
   <!--부모가 가지고 있는 모달의 3가지 데이터를 자식(Modal.vue)로 보냄 //속성명 변수명은 동일하게함-->
   <Modal 
@@ -101,7 +101,7 @@ export default {
           category: "드라마, 판타지",
           textRed: "color:black",
           like: 0,
-          imgUrl:'./assets/jp-long.jpg',
+          imgUrl:'./assets/vini.jpeg',
         },
         {
           title: "일드",

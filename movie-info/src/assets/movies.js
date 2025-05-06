@@ -37,4 +37,4 @@ const data = [
         imgUrl:'./assets/jp-dorama.png',
       },
 ]
-export default data;  
+export default data;  //data라는 자료만 데이터로 내보내기
